@@ -105,5 +105,6 @@ echo "✅ Space '$SPACE_NAME' created successfully."
 APP_DIR="./hello-world"
 APP_NAME="hello-python"
 echo "🚀 Deploying app: $APP_NAME"
+cd ..
 cd "$APP_DIR"
 cf push "$APP_NAME"
