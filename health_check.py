@@ -12,7 +12,7 @@ import sys
 app = Flask(__name__)
  
 # === CONFIG ===
-CHECK_INTERVAL = 20  # seconds
+CHECK_INTERVAL = 5  # seconds
 FAILOVER_SCRIPT = "./automation.sh"
  
 # === State Tracking ===
